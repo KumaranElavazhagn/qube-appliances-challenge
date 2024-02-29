@@ -56,7 +56,7 @@ func (r service) Appliance(applianceId string) (*dto.ApplianceResponse, *errs.Ap
 				Bandwidth:                appliance.Bandwidth,
 				AvgBandwidth:             appliance.AvgBandwidth,
 				PlanStartDate:            "1st Oct",
-				BillingCycle:             "monthly",
+				BillingCycle:             "Monthly",
 				DeviceStatus:             appliance.DeviceStatus,
 				DownloadStatus:           appliance.DownloadStatus,
 				OsVersion:                appliance.OsVersion,
